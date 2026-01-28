@@ -1,0 +1,34 @@
+{
+  "name": "opencode-ralph-loop",
+  "version": "1.0.0",
+  "description": "Ralph Loop plugin for OpenCode - iterative self-referential AI development loops",
+  "main": "ralph-loop.ts",
+  "type": "module",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "ralph",
+    "ralph-wiggum",
+    "agentic",
+    "iteration",
+    "autonomous"
+  ],
+  "author": "Adapted from Claude Code's ralph-wiggum plugin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/opencode-ralph-loop"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "ralph-loop.ts",
+    "commands",
+    "skills"
+  ]
+}
