@@ -1,7 +1,5 @@
 # Ralph Loop Plugin for OpenCode
 
-Repository: [opencode-ralph-loop](https://github.com/hawkeyexl/opencode-ralph-loop?tab=readme-ov-file)
-
 An adaptation of [Claude Code's ralph-wiggum plugin](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum) for OpenCode.
 
 ## What is a Ralph Loop?
@@ -36,15 +34,6 @@ This plugin adapts the concept using OpenCode's **session.idle** event:
    ```bash
    cp -r opencode-ralph-loop .opencode/plugins/
    ```
-
-### From npm (when published)
-
-Add to your `opencode.json`:
-```json
-{
-  "plugin": ["opencode-ralph-loop"]
-}
-```
 
 ### From GitHub (clone + symlink)
 
@@ -189,8 +178,6 @@ Only signal completion when the promise is genuinely fulfilled. The loop is desi
 
 - Original Ralph Wiggum technique: [Geoffrey Huntley](https://ghuntley.com/ralph/)
 - Claude Code plugin: [Anthropic](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum)
-- OpenCode adaptation: This plugin
- - OpenCode adaptation: [opencode-ralph-loop](https://github.com/hawkeyexl/opencode-ralph-loop?tab=readme-ov-file)
 
 ## License
 
